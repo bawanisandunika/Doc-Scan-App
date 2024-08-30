@@ -1,0 +1,38 @@
+name: doc_scan_app
+description: "A new Flutter project for document conversion and image scanning."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+  # Package to pick images from gallery or camera
+  image_picker: ^1.0.7
+
+  # Google ML Kit Text Recognition package
+  google_mlkit_text_recognition: ^0.13.0
+
+  # File picker package for selecting files
+  file_picker: ^5.3.0
+
+  # PDF and Word document manipulation packages
+  pdf: ^3.10.1
+  printing: ^5.9.2
+  path_provider: ^2.1.4
+  flutter_pdfview: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
