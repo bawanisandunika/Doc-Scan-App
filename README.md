@@ -1,16 +1,33 @@
-# doc_scan_app
+# 📄 Doc Scan App
 
-A new Flutter project.
+🎯 **Purpose:**  
+A Flutter application that lets users select an image, scan it for text using Google ML Kit, and convert the scanned image into a PDF file.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- 🖼️ **Select Image:** Pick an image from your gallery or capture using the camera.
+- 🧠 **Scan Text:** Extract text from the selected image using Google ML Kit.
+- 📄 **Convert to PDF:** Save the scanned text as a PDF file.
+- 🔍 **View Image & Text:** See the selected image and recognized text in-app.
 
-A few resources to get you started if this is your first Flutter project:
+## 🔧 Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🛠️ **Flutter:** Mobile app development framework.
+- 🖼️ **Google ML Kit:** For text recognition.
+- 📂 **Image Picker:** To select or capture images.
+- 📝 **PDF Creation:** Convert and save scanned text as a PDF.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📱 How to Use
+
+1. **Upload and Scan Image**  
+   - Select an image from your gallery or capture one with the camera.  
+   - The app will display the selected image and recognized text.
+
+2. **Save as PDF**  
+   - After text recognition, save the scanned document as a PDF file directly from the app.
+
+## 📦 Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/bawanisandunika/doc_scan_app.git
